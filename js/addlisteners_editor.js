@@ -8,6 +8,9 @@ for (var i=0;i<10;i++) {
 //var soundButtonPress = document.getElementById("soundButtonPress");
 //soundButtonPress.addEventListener("click", buttonPress, false);
 
+var generateClickLink = document.getElementById("generateClickLink");
+generateClickLink.addEventListener("click", generateClick, false);
+
 var runClickLink = document.getElementById("runClickLink");
 runClickLink.addEventListener("click", runClick, false);
 

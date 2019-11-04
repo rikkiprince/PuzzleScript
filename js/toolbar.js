@@ -2,6 +2,13 @@
 // The “callback URL” of that app points to https://www.puzzlescript.net/auth.html.
 // If you’re running from another host name, sharing might not work.
 
+function generateClick() {
+	clearConsole();
+
+	var codeArea = document.getElementById("code");
+	var editor = document.querySelector(".CodeMirror").CodeMirror;
+	editor.getDoc().setValue('hi');
+}
 
 function runClick() {
 	clearConsole();
