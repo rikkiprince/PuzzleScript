@@ -1,15 +1,27 @@
-PuzzleScript
-============
+PuzzleScript + Tracery
+======================
 
-Open Source HTML5 Puzzle Game Engine
+An extension to PuzzleScript that generates game definitions using Tracery and a grammar created by Rikki Prince (@rikkiprince).
 
-Try it out at https://www.puzzlescript.net
+Get `tracery.js` and put it in the root directory to make this work, then run `./runserver` and launch a browser pointed at https://localhost:1234 to try this out.
+
+-----
+
+Based on the Open Source HTML5 Puzzle Game Engine
+
+Try that out at https://www.puzzlescript.net
+
+Also, based on the Open Source story-grammar generation library for Javascript
+
+Try that out at https://tracery.io/
 
 -----
 
-Dev instructions here - https://groups.google.com/forum/#!searchin/puzzlescript/development/puzzlescript/yptIpY9hlng/cjfrOPy_4jcJ
+PuzzleScript Dev instructions here - https://groups.google.com/forum/#!searchin/puzzlescript/development/puzzlescript/yptIpY9hlng/cjfrOPy_4jcJ
 
 -----
+
+PuzzleScript license
 
 The MIT License (MIT)
 
